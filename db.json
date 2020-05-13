@@ -1,5 +1,5 @@
 {
-	"grades": [{
+	"exams": [{
 			"id": 1,
 			"name": "math",
 			"grades": [{
