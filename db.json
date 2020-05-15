@@ -1,55 +1,68 @@
 {
-    "exams": [{
-            "id": 1,
-            "name": "math",
-            "grades": [{
-                    "id": 1,
-                    "name": "mid term exam",
-                    "grade": "90"
-                },
-                {
-                    "id": 2,
-                    "name": "finals",
-                    "grade": "80"
-                }
-            ]
-        },
-        {
-            "id": 2,
-            "name": "physics",
-            "grades": [{
-                    "id": 3,
-                    "name": "mid term exam",
-                    "grade": "100"
-                },
-                {
-                    "id": 4,
-                    "name": "finals",
-                    "grade": "70"
-                }
-            ]
-        }
-    ],
-    "grades" : [
-        {
-            "id": 1,
-            "name": "mid term exam",
-            "grade": "90"
-        },
-        {
-            "id": 2,
-            "name": "finals",
-            "grade": "80"
-        },
-        {
-            "id": 3,
-            "name": "mid term exam",
-            "grade": "100"
-        },
-        {
-            "id": 4,
-            "name": "finals",
-            "grade": "70"
-        }        
-    ]
+	"exams": [{
+			"id": 1,
+			"name": "math",
+			"grades": [{
+					"id": 1,
+					"name": "mid term exam",
+					"grade": 90
+				},
+				{
+					"id": 2,
+					"name": "finals",
+					"grade": 80
+				}
+			]
+		},
+		{
+			"id": 2,
+			"name": "science",
+			"grades": [{
+					"id": 3,
+					"name": "mid term exam",
+					"grade": 100
+				},
+				{
+					"id": 4,
+					"name": "finals",
+					"grade": 70
+				}
+			]
+		},
+		{
+			"id": 3,
+			"name": "history",
+			"grades": [{
+				"id": 5,
+				"name": "mid term exam",
+				"grade": 85
+			}]
+		}
+	],
+	"grades": [{
+			"id": 1,
+			"name": "mid term exam",
+			"grade": 90
+		},
+		{
+			"id": 2,
+			"name": "finals",
+			"grade": 80
+		},
+		{
+			"id": 3,
+			"name": "mid term exam",
+			"grade": 100
+		},
+		{
+			"id": 4,
+			"name": "finals",
+			"grade": 70
+		},
+		{
+			"id": 5,
+			"name": "mid term exam",
+			"grade": 85
+		}
+	]
 }
